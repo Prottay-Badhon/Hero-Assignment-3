@@ -1,0 +1,54 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-inner .carousel-item img{
+    height: 560px;
+}
+.plan-btn{
+    background-color: rgb(255 241 224);
+}
+.my-card p{
+    font-size: 14px;
+    color: rgb(173, 173, 173);
+}
+.card-content .fa-check-circle{
+    color: gray ;
+}
+
+.special-card p{
+    color: white;
+}
+.hot{
+    background-color: red;
+}
+
+@media(min-width: 991px) {
+    .special-card{
+        margin-top: -94px;
+    }
+}
+
+@media(max-width: 768px) {
+    .toast{
+        margin-top: 50px;
+    }
+}
+.caption{
+    display: none;
+}
+.pic{
+    background-color: black;
+}
+.pic img{
+    height: 200px;
+    opacity: .5;
+}
+.pic:hover img{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.pic:hover .caption{
+   display: block;
+   cursor: pointer;
+   color: rgb(221, 218, 221);
+}
